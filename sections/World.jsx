@@ -39,13 +39,13 @@ const World = () => (
         <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
           <img src="people-03.png" alt="people" className="w-full h-full" />
         </div>
-        <div className="absolute top-[35%] left-[20%] w-[217px] h-[167px] p-[6px] rounded-[24px] bg-[#5d6680] z-10">
+        <div className="absolute top-[35%] left-[20%] w-[20%] h-[30%] p-[6px] rounded-[24px] hidden md:block bg-[#5d6680] z-10">
           <img
             src="map1.png"
             alt="people"
             className="w-full h-full rounded-[24px]"
           />
-          <div className="absolute bottom-11 ml-4">
+          <div className="lg:block absolute bottom-11 ml-4 hidden">
             <div className="flex items-center">
               <img
                 src="client1.png"
@@ -71,14 +71,14 @@ const World = () => (
             The Upside Down
           </div>
         </div>
-        <div className="absolute map-gradient top-[35%] left-[20%] w-[217px] h-[167px] p-[6px] rounded-[24px] z-90" />
-        <div className="absolute top-[7%] left-[60%] w-[211px] h-[159px] p-[6px] rounded-[24px] bg-[#5d6680] z-10">
+        <div className="absolute map-gradient top-[35%] left-[20%] w-[20%] h-[30%] p-[6px] hidden md:block rounded-[24px] z-90" />
+        <div className="absolute top-[7%] left-[60%] w-[20%] h-[30%] p-[6px] hidden md:block rounded-[24px] bg-[#5d6680] z-10">
           <img
             src="map2.png"
             alt="people"
             className="w-full h-full rounded-[24px]"
           />
-          <div className="absolute bottom-11 ml-4">
+          <div className="lg:block absolute bottom-11 ml-4 hidden">
             <div className="flex items-center">
               <img
                 src="client1.png"
@@ -104,7 +104,7 @@ const World = () => (
             Hawkins Labs
           </div>
         </div>
-        <div className="absolute map-gradient2 top-[10%] left-[60%] w-[211px] h-[159px] p-[6px] rounded-[24px] z-90" />
+        <div className="absolute map-gradient2 top-[10%] left-[60%] w-[20%] h-[30%] p-[6px] hidden md:block rounded-[24px] z-90" />
       </motion.div>
     </motion.div>
   </section>
